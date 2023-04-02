@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" saveUser="sergio" version="3.22.4-Białowieża" saveUserFull="sergio" saveDateTime="2023-04-02T17:19:38">
+<qgis projectname="" saveUser="sergio" version="3.22.4-Białowieża" saveUserFull="sergio" saveDateTime="2023-04-02T18:31:22">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -41,11 +41,41 @@
       <customproperties>
         <Option/>
       </customproperties>
-      <layer-tree-group name="2010" checked="Qt::Checked" expanded="0">
+      <layer-tree-group name="2010" checked="Qt::Unchecked" expanded="1">
         <customproperties>
           <Option/>
         </customproperties>
-        <layer-tree-layer name="brasilAgric2010" checked="Qt::Checked" expanded="0" id="brasilAgric2010_8504aae0_38ec_4946_9685_83ee21204e23" legend_exp="" patch_size="-1,-1" legend_split_behavior="0" source="./data/tif/2010/brasilAgric2010.tif" providerKey="gdal">
+        <layer-tree-layer name="brasil2010agric1" checked="Qt::Unchecked" expanded="0" id="brasil2010agric1_98322f91_85fd_41bf_8ea8_cbbc47d20aad" legend_exp="" patch_size="-1,-1" legend_split_behavior="0" source="./data/tif/2010/brasil2010agric1.tif" providerKey="gdal">
+          <customproperties>
+            <Option/>
+          </customproperties>
+        </layer-tree-layer>
+        <layer-tree-layer name="brasil2010fores1" checked="Qt::Unchecked" expanded="0" id="brasil2010fores1_2dfc4feb_b446_4b2e_b529_25b90b731b0c" legend_exp="" patch_size="-1,-1" legend_split_behavior="0" source="./data/tif/2010/brasil2010fores1.tif" providerKey="gdal">
+          <customproperties>
+            <Option/>
+          </customproperties>
+        </layer-tree-layer>
+        <layer-tree-layer name="brasil2010gveg1" checked="Qt::Unchecked" expanded="0" id="brasil2010gveg1_5815d39d_4e3c_4c3b_a5ca_2ab9826395a7" legend_exp="" patch_size="-1,-1" legend_split_behavior="0" source="./data/tif/2010/brasil2010gveg1.tif" providerKey="gdal">
+          <customproperties>
+            <Option/>
+          </customproperties>
+        </layer-tree-layer>
+        <layer-tree-layer name="brasil2010mosc1" checked="Qt::Unchecked" expanded="0" id="brasil2010mosc1_645375fc_ebc8_403e_9acb_f58a6667b9a6" legend_exp="" patch_size="-1,-1" legend_split_behavior="0" source="./data/tif/2010/brasil2010mosc1.tif" providerKey="gdal">
+          <customproperties>
+            <Option/>
+          </customproperties>
+        </layer-tree-layer>
+        <layer-tree-layer name="brasil2010others1" checked="Qt::Unchecked" expanded="0" id="brasil2010others1_05c77ee2_a072_4e3f_ae54_91337322b440" legend_exp="" patch_size="-1,-1" legend_split_behavior="0" source="./data/tif/2010/brasil2010others1.tif" providerKey="gdal">
+          <customproperties>
+            <Option/>
+          </customproperties>
+        </layer-tree-layer>
+        <layer-tree-layer name="brasil2010pastp1" checked="Qt::Unchecked" expanded="0" id="brasil2010pastp1_1392195d_d85c_4636_b6f4_1233efc73ebd" legend_exp="" patch_size="-1,-1" legend_split_behavior="0" source="./data/tif/2010/brasil2010pastp1.tif" providerKey="gdal">
+          <customproperties>
+            <Option/>
+          </customproperties>
+        </layer-tree-layer>
+        <layer-tree-layer name="brasil2010veg1" checked="Qt::Checked" expanded="0" id="brasil2010veg1_bc873e2f_404a_4883_a0bb_27ebfd73c696" legend_exp="" patch_size="-1,-1" legend_split_behavior="0" source="./data/tif/2010/brasil2010veg1.tif" providerKey="gdal">
           <customproperties>
             <Option/>
           </customproperties>
@@ -61,14 +91,20 @@
       <item>brasil_grade_083_EPSG5880_d8d6ded8_e276_4ffa_b443_86f06e8063b9</item>
       <item>rios_pnlt_poly_sirgas2000_f3ea3b8e_ad5a_4d3a_ba4c_b1c31d932afc</item>
       <item>centros_urbanos_m_100_pnlt_poly_sirgas2000_51131ec8_be5e_468c_a94f_c6298a9017e0</item>
-      <item>brasilAgric2010_8504aae0_38ec_4946_9685_83ee21204e23</item>
+      <item>brasil2010veg1_bc873e2f_404a_4883_a0bb_27ebfd73c696</item>
+      <item>brasil2010pastp1_1392195d_d85c_4636_b6f4_1233efc73ebd</item>
+      <item>brasil2010others1_05c77ee2_a072_4e3f_ae54_91337322b440</item>
+      <item>brasil2010mosc1_645375fc_ebc8_403e_9acb_f58a6667b9a6</item>
+      <item>brasil2010gveg1_5815d39d_4e3c_4c3b_a5ca_2ab9826395a7</item>
+      <item>brasil2010fores1_2dfc4feb_b446_4b2e_b529_25b90b731b0c</item>
+      <item>brasil2010agric1_98322f91_85fd_41bf_8ea8_cbbc47d20aad</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings mode="2" type="1" unit="1" scaleDependencyMode="0" enabled="0" self-snapping="0" intersection-snapping="0" minScale="0" tolerance="12" maxScale="0">
     <individual-layer-settings>
-      <layer-setting type="1" enabled="0" id="rios_pnlt_poly_sirgas2000_f3ea3b8e_ad5a_4d3a_ba4c_b1c31d932afc" minScale="0" tolerance="12" units="1" maxScale="0"/>
       <layer-setting type="1" enabled="0" id="centros_urbanos_m_100_pnlt_poly_sirgas2000_51131ec8_be5e_468c_a94f_c6298a9017e0" minScale="0" tolerance="12" units="1" maxScale="0"/>
       <layer-setting type="1" enabled="0" id="brasil_grade_083_EPSG5880_d8d6ded8_e276_4ffa_b443_86f06e8063b9" minScale="0" tolerance="12" units="1" maxScale="0"/>
+      <layer-setting type="1" enabled="0" id="rios_pnlt_poly_sirgas2000_f3ea3b8e_ad5a_4d3a_ba4c_b1c31d932afc" minScale="0" tolerance="12" units="1" maxScale="0"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -76,10 +112,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>2683705.71956123039126396</xmin>
-      <ymin>6154128.61560197360813618</ymin>
-      <xmax>7235134.30721801519393921</xmax>
-      <ymax>10700137.63571554608643055</ymax>
+      <xmin>2341621.77725680265575647</xmin>
+      <ymin>6939220.68109854869544506</ymin>
+      <xmax>7661664.38708807621151209</xmax>
+      <ymax>12022141.71119913272559643</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -113,10 +149,40 @@
       </legendlayer>
     </legendgroup>
     <legendgroup name="raster" checked="Qt::Unchecked" open="false">
-      <legendgroup name="2010" checked="Qt::Checked" open="false">
-        <legendlayer name="brasilAgric2010" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1" open="false">
+      <legendgroup name="2010" checked="Qt::Unchecked" open="true">
+        <legendlayer name="brasil2010agric1" checked="Qt::Unchecked" showFeatureCount="0" drawingOrder="-1" open="false">
           <filegroup hidden="false" open="false">
-            <legendlayerfile isInOverview="0" visible="0" layerid="brasilAgric2010_8504aae0_38ec_4946_9685_83ee21204e23"/>
+            <legendlayerfile isInOverview="0" visible="0" layerid="brasil2010agric1_98322f91_85fd_41bf_8ea8_cbbc47d20aad"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer name="brasil2010fores1" checked="Qt::Unchecked" showFeatureCount="0" drawingOrder="-1" open="false">
+          <filegroup hidden="false" open="false">
+            <legendlayerfile isInOverview="0" visible="0" layerid="brasil2010fores1_2dfc4feb_b446_4b2e_b529_25b90b731b0c"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer name="brasil2010gveg1" checked="Qt::Unchecked" showFeatureCount="0" drawingOrder="-1" open="false">
+          <filegroup hidden="false" open="false">
+            <legendlayerfile isInOverview="0" visible="0" layerid="brasil2010gveg1_5815d39d_4e3c_4c3b_a5ca_2ab9826395a7"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer name="brasil2010mosc1" checked="Qt::Unchecked" showFeatureCount="0" drawingOrder="-1" open="false">
+          <filegroup hidden="false" open="false">
+            <legendlayerfile isInOverview="0" visible="0" layerid="brasil2010mosc1_645375fc_ebc8_403e_9acb_f58a6667b9a6"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer name="brasil2010others1" checked="Qt::Unchecked" showFeatureCount="0" drawingOrder="-1" open="false">
+          <filegroup hidden="false" open="false">
+            <legendlayerfile isInOverview="0" visible="0" layerid="brasil2010others1_05c77ee2_a072_4e3f_ae54_91337322b440"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer name="brasil2010pastp1" checked="Qt::Unchecked" showFeatureCount="0" drawingOrder="-1" open="false">
+          <filegroup hidden="false" open="false">
+            <legendlayerfile isInOverview="0" visible="0" layerid="brasil2010pastp1_1392195d_d85c_4636_b6f4_1233efc73ebd"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer name="brasil2010veg1" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1" open="false">
+          <filegroup hidden="false" open="false">
+            <legendlayerfile isInOverview="0" visible="0" layerid="brasil2010veg1_bc873e2f_404a_4883_a0bb_27ebfd73c696"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
@@ -129,6 +195,31 @@
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>meters</units>
+    <extent>
+      <xmin>2683705.71956123039126396</xmin>
+      <ymin>6154128.61560197360813618</ymin>
+      <xmax>7235134.30721801519393921</xmax>
+      <ymax>10700137.63571554608643055</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>PROJCRS["SIRGAS 2000 / Brazil Polyconic",BASEGEOGCRS["SIRGAS 2000",DATUM["Sistema de Referencia Geocentrico para las AmericaS 2000",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4674]],CONVERSION["Brazil Polyconic",METHOD["American Polyconic",ID["EPSG",9818]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-54,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",5000000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",10000000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (small scale)."],AREA["Brazil - onshore and offshore. Includes Rocas, Fernando de Noronha archipelago, Trindade, Ihlas Martim Vaz and Sao Pedro e Sao Paulo."],BBOX[-35.71,-74.01,7.04,-25.28]],ID["EPSG",5880]]</wkt>
+        <proj4>+proj=poly +lat_0=0 +lon_0=-54 +x_0=5000000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>29504</srsid>
+        <srid>5880</srid>
+        <authid>EPSG:5880</authid>
+        <description>SIRGAS 2000 / Brazil Polyconic</description>
+        <projectionacronym>poly</projectionacronym>
+        <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
   <main-annotation-layer type="annotation" legendPlaceholderImage="" autoRefreshEnabled="0" refreshOnNotifyMessage="" autoRefreshTime="0" refreshOnNotifyEnabled="0">
     <id>Anota__es_7d22ea2d_0076_478f_aba5_97721994efb6</id>
     <datasource></datasource>
@@ -182,23 +273,797 @@
   <projectlayers>
     <maplayer type="raster" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" autoRefreshTime="0" styleCategories="AllStyleCategories" maxScale="0" refreshOnNotifyEnabled="0">
       <extent>
-        <xmin>2779530.65836139861494303</xmin>
-        <ymin>6060828.81792158260941505</ymin>
-        <xmax>7402778.53880507405847311</xmax>
-        <ymax>10620620.35490818880498409</ymax>
+        <xmin>2794560.1863987441174686</xmin>
+        <ymin>6263754.49612290598452091</ymin>
+        <xmax>7399863.83428602665662766</xmax>
+        <ymax>10586282.37762049771845341</ymax>
       </extent>
       <wgs84extent>
-        <xmin>-78.04430681953351723</xmin>
-        <ymin>-35.58193100990887103</ymin>
-        <xmax>-28.05577348926279058</xmax>
-        <ymax>5.61250196755476072</ymax>
+        <xmin>-77.42164944501537605</xmin>
+        <ymin>-33.75180268546709783</ymin>
+        <xmax>-28.58149907848700977</xmax>
+        <ymax>5.30186366625619065</ymax>
       </wgs84extent>
-      <id>brasilAgric2010_8504aae0_38ec_4946_9685_83ee21204e23</id>
-      <datasource>./data/tif/2010/brasilAgric2010.tif</datasource>
+      <id>brasil2010agric1_98322f91_85fd_41bf_8ea8_cbbc47d20aad</id>
+      <datasource>./data/tif/2010/brasil2010agric1.tif</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>brasilAgric2010</layername>
+      <layername>brasil2010agric1</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["SIRGAS 2000 / Brazil Polyconic",BASEGEOGCRS["SIRGAS 2000",DATUM["Sistema de Referencia Geocentrico para las AmericaS 2000",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4674]],CONVERSION["Brazil Polyconic",METHOD["American Polyconic",ID["EPSG",9818]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-54,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",5000000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",10000000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (small scale)."],AREA["Brazil - onshore and offshore. Includes Rocas, Fernando de Noronha archipelago, Trindade, Ihlas Martim Vaz and Sao Pedro e Sao Paulo."],BBOX[-35.71,-74.01,7.04,-25.28]],ID["EPSG",5880]]</wkt>
+          <proj4>+proj=poly +lat_0=0 +lon_0=-54 +x_0=5000000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>29504</srsid>
+          <srid>5880</srid>
+          <authid>EPSG:5880</authid>
+          <description>SIRGAS 2000 / Brazil Polyconic</description>
+          <projectionacronym>poly</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList useSrcNoData="1" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="padrão">
+        <map-layer-style name="padrão"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal mode="0" enabled="0" fetchMode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <Option type="Map">
+          <Option name="identify/format" type="QString" value="Value"/>
+        </Option>
+      </customproperties>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option name="name" type="QString" value=""/>
+          <Option name="properties"/>
+          <Option name="type" type="QString" value="collection"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling enabled="false" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour"/>
+        </provider>
+        <rasterrenderer grayBand="1" type="singlebandgray" gradient="BlackToWhite" opacity="1" nodataColor="" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+          <rampLegendSettings direction="0" minimumLabel="" prefix="" suffix="" maximumLabel="" orientation="2" useContinuousLegend="1">
+            <numericFormat id="basic">
+              <Option type="Map">
+                <Option name="decimal_separator" type="QChar" value=""/>
+                <Option name="decimals" type="int" value="6"/>
+                <Option name="rounding_type" type="int" value="0"/>
+                <Option name="show_plus" type="bool" value="false"/>
+                <Option name="show_thousand_separator" type="bool" value="true"/>
+                <Option name="show_trailing_zeros" type="bool" value="false"/>
+                <Option name="thousand_separator" type="QChar" value=""/>
+              </Option>
+            </numericFormat>
+          </rampLegendSettings>
+        </rasterrenderer>
+        <brightnesscontrast gamma="1" brightness="0" contrast="0"/>
+        <huesaturation saturation="0" colorizeStrength="100" colorizeGreen="128" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" invertColors="0" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer type="raster" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" autoRefreshTime="0" styleCategories="AllStyleCategories" maxScale="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>2794560.1863987441174686</xmin>
+        <ymin>6263754.49612290598452091</ymin>
+        <xmax>7399863.83428602665662766</xmax>
+        <ymax>10586282.37762049771845341</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-77.42164944501537605</xmin>
+        <ymin>-33.75180268546709783</ymin>
+        <xmax>-28.58149907848700977</xmax>
+        <ymax>5.30186366625619065</ymax>
+      </wgs84extent>
+      <id>brasil2010fores1_2dfc4feb_b446_4b2e_b529_25b90b731b0c</id>
+      <datasource>./data/tif/2010/brasil2010fores1.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>brasil2010fores1</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["SIRGAS 2000 / Brazil Polyconic",BASEGEOGCRS["SIRGAS 2000",DATUM["Sistema de Referencia Geocentrico para las AmericaS 2000",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4674]],CONVERSION["Brazil Polyconic",METHOD["American Polyconic",ID["EPSG",9818]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-54,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",5000000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",10000000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (small scale)."],AREA["Brazil - onshore and offshore. Includes Rocas, Fernando de Noronha archipelago, Trindade, Ihlas Martim Vaz and Sao Pedro e Sao Paulo."],BBOX[-35.71,-74.01,7.04,-25.28]],ID["EPSG",5880]]</wkt>
+          <proj4>+proj=poly +lat_0=0 +lon_0=-54 +x_0=5000000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>29504</srsid>
+          <srid>5880</srid>
+          <authid>EPSG:5880</authid>
+          <description>SIRGAS 2000 / Brazil Polyconic</description>
+          <projectionacronym>poly</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList useSrcNoData="1" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="padrão">
+        <map-layer-style name="padrão"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal mode="0" enabled="0" fetchMode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <Option type="Map">
+          <Option name="identify/format" type="QString" value="Value"/>
+        </Option>
+      </customproperties>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option name="name" type="QString" value=""/>
+          <Option name="properties"/>
+          <Option name="type" type="QString" value="collection"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling enabled="false" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour"/>
+        </provider>
+        <rasterrenderer grayBand="1" type="singlebandgray" gradient="BlackToWhite" opacity="1" nodataColor="" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+          <rampLegendSettings direction="0" minimumLabel="" prefix="" suffix="" maximumLabel="" orientation="2" useContinuousLegend="1">
+            <numericFormat id="basic">
+              <Option type="Map">
+                <Option name="decimal_separator" type="QChar" value=""/>
+                <Option name="decimals" type="int" value="6"/>
+                <Option name="rounding_type" type="int" value="0"/>
+                <Option name="show_plus" type="bool" value="false"/>
+                <Option name="show_thousand_separator" type="bool" value="true"/>
+                <Option name="show_trailing_zeros" type="bool" value="false"/>
+                <Option name="thousand_separator" type="QChar" value=""/>
+              </Option>
+            </numericFormat>
+          </rampLegendSettings>
+        </rasterrenderer>
+        <brightnesscontrast gamma="1" brightness="0" contrast="0"/>
+        <huesaturation saturation="0" colorizeStrength="100" colorizeGreen="128" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" invertColors="0" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer type="raster" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" autoRefreshTime="0" styleCategories="AllStyleCategories" maxScale="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>2794560.1863987441174686</xmin>
+        <ymin>6263754.49612290598452091</ymin>
+        <xmax>7399863.83428602665662766</xmax>
+        <ymax>10586282.37762049771845341</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-77.42164944501537605</xmin>
+        <ymin>-33.75180268546709783</ymin>
+        <xmax>-28.58149907848700977</xmax>
+        <ymax>5.30186366625619065</ymax>
+      </wgs84extent>
+      <id>brasil2010gveg1_5815d39d_4e3c_4c3b_a5ca_2ab9826395a7</id>
+      <datasource>./data/tif/2010/brasil2010gveg1.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>brasil2010gveg1</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["SIRGAS 2000 / Brazil Polyconic",BASEGEOGCRS["SIRGAS 2000",DATUM["Sistema de Referencia Geocentrico para las AmericaS 2000",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4674]],CONVERSION["Brazil Polyconic",METHOD["American Polyconic",ID["EPSG",9818]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-54,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",5000000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",10000000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (small scale)."],AREA["Brazil - onshore and offshore. Includes Rocas, Fernando de Noronha archipelago, Trindade, Ihlas Martim Vaz and Sao Pedro e Sao Paulo."],BBOX[-35.71,-74.01,7.04,-25.28]],ID["EPSG",5880]]</wkt>
+          <proj4>+proj=poly +lat_0=0 +lon_0=-54 +x_0=5000000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>29504</srsid>
+          <srid>5880</srid>
+          <authid>EPSG:5880</authid>
+          <description>SIRGAS 2000 / Brazil Polyconic</description>
+          <projectionacronym>poly</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList useSrcNoData="1" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="padrão">
+        <map-layer-style name="padrão"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal mode="0" enabled="0" fetchMode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <Option type="Map">
+          <Option name="identify/format" type="QString" value="Value"/>
+        </Option>
+      </customproperties>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option name="name" type="QString" value=""/>
+          <Option name="properties"/>
+          <Option name="type" type="QString" value="collection"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling enabled="false" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour"/>
+        </provider>
+        <rasterrenderer grayBand="1" type="singlebandgray" gradient="BlackToWhite" opacity="1" nodataColor="" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+          <rampLegendSettings direction="0" minimumLabel="" prefix="" suffix="" maximumLabel="" orientation="2" useContinuousLegend="1">
+            <numericFormat id="basic">
+              <Option type="Map">
+                <Option name="decimal_separator" type="QChar" value=""/>
+                <Option name="decimals" type="int" value="6"/>
+                <Option name="rounding_type" type="int" value="0"/>
+                <Option name="show_plus" type="bool" value="false"/>
+                <Option name="show_thousand_separator" type="bool" value="true"/>
+                <Option name="show_trailing_zeros" type="bool" value="false"/>
+                <Option name="thousand_separator" type="QChar" value=""/>
+              </Option>
+            </numericFormat>
+          </rampLegendSettings>
+        </rasterrenderer>
+        <brightnesscontrast gamma="1" brightness="0" contrast="0"/>
+        <huesaturation saturation="0" colorizeStrength="100" colorizeGreen="128" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" invertColors="0" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer type="raster" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" autoRefreshTime="0" styleCategories="AllStyleCategories" maxScale="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>2794560.1863987441174686</xmin>
+        <ymin>6263754.49612290598452091</ymin>
+        <xmax>7399863.83428602665662766</xmax>
+        <ymax>10586282.37762049771845341</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-77.42164944501537605</xmin>
+        <ymin>-33.75180268546709783</ymin>
+        <xmax>-28.58149907848700977</xmax>
+        <ymax>5.30186366625619065</ymax>
+      </wgs84extent>
+      <id>brasil2010mosc1_645375fc_ebc8_403e_9acb_f58a6667b9a6</id>
+      <datasource>./data/tif/2010/brasil2010mosc1.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>brasil2010mosc1</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["SIRGAS 2000 / Brazil Polyconic",BASEGEOGCRS["SIRGAS 2000",DATUM["Sistema de Referencia Geocentrico para las AmericaS 2000",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4674]],CONVERSION["Brazil Polyconic",METHOD["American Polyconic",ID["EPSG",9818]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-54,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",5000000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",10000000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (small scale)."],AREA["Brazil - onshore and offshore. Includes Rocas, Fernando de Noronha archipelago, Trindade, Ihlas Martim Vaz and Sao Pedro e Sao Paulo."],BBOX[-35.71,-74.01,7.04,-25.28]],ID["EPSG",5880]]</wkt>
+          <proj4>+proj=poly +lat_0=0 +lon_0=-54 +x_0=5000000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>29504</srsid>
+          <srid>5880</srid>
+          <authid>EPSG:5880</authid>
+          <description>SIRGAS 2000 / Brazil Polyconic</description>
+          <projectionacronym>poly</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList useSrcNoData="1" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="padrão">
+        <map-layer-style name="padrão"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal mode="0" enabled="0" fetchMode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <Option type="Map">
+          <Option name="identify/format" type="QString" value="Value"/>
+        </Option>
+      </customproperties>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option name="name" type="QString" value=""/>
+          <Option name="properties"/>
+          <Option name="type" type="QString" value="collection"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling enabled="false" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour"/>
+        </provider>
+        <rasterrenderer grayBand="1" type="singlebandgray" gradient="BlackToWhite" opacity="1" nodataColor="" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+          <rampLegendSettings direction="0" minimumLabel="" prefix="" suffix="" maximumLabel="" orientation="2" useContinuousLegend="1">
+            <numericFormat id="basic">
+              <Option type="Map">
+                <Option name="decimal_separator" type="QChar" value=""/>
+                <Option name="decimals" type="int" value="6"/>
+                <Option name="rounding_type" type="int" value="0"/>
+                <Option name="show_plus" type="bool" value="false"/>
+                <Option name="show_thousand_separator" type="bool" value="true"/>
+                <Option name="show_trailing_zeros" type="bool" value="false"/>
+                <Option name="thousand_separator" type="QChar" value=""/>
+              </Option>
+            </numericFormat>
+          </rampLegendSettings>
+        </rasterrenderer>
+        <brightnesscontrast gamma="1" brightness="0" contrast="0"/>
+        <huesaturation saturation="0" colorizeStrength="100" colorizeGreen="128" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" invertColors="0" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer type="raster" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" autoRefreshTime="0" styleCategories="AllStyleCategories" maxScale="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>2794560.1863987441174686</xmin>
+        <ymin>6263754.49612290598452091</ymin>
+        <xmax>7399863.83428602665662766</xmax>
+        <ymax>10586282.37762049771845341</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-77.42164944501537605</xmin>
+        <ymin>-33.75180268546709783</ymin>
+        <xmax>-28.58149907848700977</xmax>
+        <ymax>5.30186366625619065</ymax>
+      </wgs84extent>
+      <id>brasil2010others1_05c77ee2_a072_4e3f_ae54_91337322b440</id>
+      <datasource>./data/tif/2010/brasil2010others1.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>brasil2010others1</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["SIRGAS 2000 / Brazil Polyconic",BASEGEOGCRS["SIRGAS 2000",DATUM["Sistema de Referencia Geocentrico para las AmericaS 2000",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4674]],CONVERSION["Brazil Polyconic",METHOD["American Polyconic",ID["EPSG",9818]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-54,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",5000000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",10000000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (small scale)."],AREA["Brazil - onshore and offshore. Includes Rocas, Fernando de Noronha archipelago, Trindade, Ihlas Martim Vaz and Sao Pedro e Sao Paulo."],BBOX[-35.71,-74.01,7.04,-25.28]],ID["EPSG",5880]]</wkt>
+          <proj4>+proj=poly +lat_0=0 +lon_0=-54 +x_0=5000000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>29504</srsid>
+          <srid>5880</srid>
+          <authid>EPSG:5880</authid>
+          <description>SIRGAS 2000 / Brazil Polyconic</description>
+          <projectionacronym>poly</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList useSrcNoData="1" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="padrão">
+        <map-layer-style name="padrão"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal mode="0" enabled="0" fetchMode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <Option type="Map">
+          <Option name="identify/format" type="QString" value="Value"/>
+        </Option>
+      </customproperties>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option name="name" type="QString" value=""/>
+          <Option name="properties"/>
+          <Option name="type" type="QString" value="collection"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling enabled="false" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour"/>
+        </provider>
+        <rasterrenderer grayBand="1" type="singlebandgray" gradient="BlackToWhite" opacity="1" nodataColor="" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+          <rampLegendSettings direction="0" minimumLabel="" prefix="" suffix="" maximumLabel="" orientation="2" useContinuousLegend="1">
+            <numericFormat id="basic">
+              <Option type="Map">
+                <Option name="decimal_separator" type="QChar" value=""/>
+                <Option name="decimals" type="int" value="6"/>
+                <Option name="rounding_type" type="int" value="0"/>
+                <Option name="show_plus" type="bool" value="false"/>
+                <Option name="show_thousand_separator" type="bool" value="true"/>
+                <Option name="show_trailing_zeros" type="bool" value="false"/>
+                <Option name="thousand_separator" type="QChar" value=""/>
+              </Option>
+            </numericFormat>
+          </rampLegendSettings>
+        </rasterrenderer>
+        <brightnesscontrast gamma="1" brightness="0" contrast="0"/>
+        <huesaturation saturation="0" colorizeStrength="100" colorizeGreen="128" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" invertColors="0" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer type="raster" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" autoRefreshTime="0" styleCategories="AllStyleCategories" maxScale="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>2794560.1863987441174686</xmin>
+        <ymin>6263754.49612290598452091</ymin>
+        <xmax>7399863.83428602665662766</xmax>
+        <ymax>10586282.37762049771845341</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-77.42164944501537605</xmin>
+        <ymin>-33.75180268546709783</ymin>
+        <xmax>-28.58149907848700977</xmax>
+        <ymax>5.30186366625619065</ymax>
+      </wgs84extent>
+      <id>brasil2010pastp1_1392195d_d85c_4636_b6f4_1233efc73ebd</id>
+      <datasource>./data/tif/2010/brasil2010pastp1.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>brasil2010pastp1</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["SIRGAS 2000 / Brazil Polyconic",BASEGEOGCRS["SIRGAS 2000",DATUM["Sistema de Referencia Geocentrico para las AmericaS 2000",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4674]],CONVERSION["Brazil Polyconic",METHOD["American Polyconic",ID["EPSG",9818]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-54,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",5000000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",10000000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (small scale)."],AREA["Brazil - onshore and offshore. Includes Rocas, Fernando de Noronha archipelago, Trindade, Ihlas Martim Vaz and Sao Pedro e Sao Paulo."],BBOX[-35.71,-74.01,7.04,-25.28]],ID["EPSG",5880]]</wkt>
+          <proj4>+proj=poly +lat_0=0 +lon_0=-54 +x_0=5000000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>29504</srsid>
+          <srid>5880</srid>
+          <authid>EPSG:5880</authid>
+          <description>SIRGAS 2000 / Brazil Polyconic</description>
+          <projectionacronym>poly</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList useSrcNoData="1" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="padrão">
+        <map-layer-style name="padrão"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal mode="0" enabled="0" fetchMode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <Option type="Map">
+          <Option name="identify/format" type="QString" value="Value"/>
+        </Option>
+      </customproperties>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option name="name" type="QString" value=""/>
+          <Option name="properties"/>
+          <Option name="type" type="QString" value="collection"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling enabled="false" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour"/>
+        </provider>
+        <rasterrenderer grayBand="1" type="singlebandgray" gradient="BlackToWhite" opacity="1" nodataColor="" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+          <rampLegendSettings direction="0" minimumLabel="" prefix="" suffix="" maximumLabel="" orientation="2" useContinuousLegend="1">
+            <numericFormat id="basic">
+              <Option type="Map">
+                <Option name="decimal_separator" type="QChar" value=""/>
+                <Option name="decimals" type="int" value="6"/>
+                <Option name="rounding_type" type="int" value="0"/>
+                <Option name="show_plus" type="bool" value="false"/>
+                <Option name="show_thousand_separator" type="bool" value="true"/>
+                <Option name="show_trailing_zeros" type="bool" value="false"/>
+                <Option name="thousand_separator" type="QChar" value=""/>
+              </Option>
+            </numericFormat>
+          </rampLegendSettings>
+        </rasterrenderer>
+        <brightnesscontrast gamma="1" brightness="0" contrast="0"/>
+        <huesaturation saturation="0" colorizeStrength="100" colorizeGreen="128" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" invertColors="0" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer type="raster" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" autoRefreshTime="0" styleCategories="AllStyleCategories" maxScale="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>2794560.1863987441174686</xmin>
+        <ymin>6263754.49612290598452091</ymin>
+        <xmax>7399863.83428602665662766</xmax>
+        <ymax>10586282.37762049771845341</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-77.42164944501537605</xmin>
+        <ymin>-33.75180268546709783</ymin>
+        <xmax>-28.58149907848700977</xmax>
+        <ymax>5.30186366625619065</ymax>
+      </wgs84extent>
+      <id>brasil2010veg1_bc873e2f_404a_4883_a0bb_27ebfd73c696</id>
+      <datasource>./data/tif/2010/brasil2010veg1.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>brasil2010veg1</layername>
       <srs>
         <spatialrefsys>
           <wkt>PROJCRS["SIRGAS 2000 / Brazil Polyconic",BASEGEOGCRS["SIRGAS 2000",DATUM["Sistema de Referencia Geocentrico para las AmericaS 2000",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4674]],CONVERSION["Brazil Polyconic",METHOD["American Polyconic",ID["EPSG",9818]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-54,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",5000000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",10000000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (small scale)."],AREA["Brazil - onshore and offshore. Includes Rocas, Fernando de Noronha archipelago, Trindade, Ihlas Martim Vaz and Sao Pedro e Sao Paulo."],BBOX[-35.71,-74.01,7.04,-25.28]],ID["EPSG",5880]]</wkt>
@@ -405,13 +1270,17 @@
           <end></end>
         </fixedRange>
       </temporal>
-      <renderer-v2 enableorderby="0" symbollevels="0" type="graduatedSymbol" forceraster="0" referencescale="-1" graduatedMethod="GraduatedColor" attr="mean_agric">
+      <renderer-v2 enableorderby="0" symbollevels="0" type="graduatedSymbol" forceraster="0" referencescale="-1" graduatedMethod="GraduatedColor" attr="mean_veg">
         <ranges>
-          <range symbol="0" render="true" upper="0.071250000000000" lower="0.000000000000000" label="0 - 0,071"/>
-          <range symbol="1" render="true" upper="0.241875000000000" lower="0.071250000000000" label="0,071 - 0,242"/>
-          <range symbol="2" render="true" upper="0.460625000000000" lower="0.241875000000000" label="0,242 - 0,461"/>
-          <range symbol="3" render="true" upper="0.715625000000000" lower="0.460625000000000" label="0,461 - 0,716"/>
-          <range symbol="4" render="true" upper="1.000000000000000" lower="0.715625000000000" label="0,716 - 1"/>
+          <range symbol="0" render="true" upper="0.049375000000000" lower="0.000000000000000" label="0 - 0,049"/>
+          <range symbol="1" render="true" upper="0.161875000000000" lower="0.049375000000000" label="0,049 - 0,162"/>
+          <range symbol="2" render="true" upper="0.292812500000000" lower="0.161875000000000" label="0,162 - 0,293"/>
+          <range symbol="3" render="true" upper="0.434375000000000" lower="0.292812500000000" label="0,293 - 0,434"/>
+          <range symbol="4" render="true" upper="0.578750000000000" lower="0.434375000000000" label="0,434 - 0,579"/>
+          <range symbol="5" render="true" upper="0.718125000000000" lower="0.578750000000000" label="0,579 - 0,718"/>
+          <range symbol="6" render="true" upper="0.841250000000000" lower="0.718125000000000" label="0,718 - 0,841"/>
+          <range symbol="7" render="true" upper="0.947812500000000" lower="0.841250000000000" label="0,841 - 0,948"/>
+          <range symbol="8" render="true" upper="1.000000000000000" lower="0.947812500000000" label="0,948 - 1"/>
         </ranges>
         <symbols>
           <symbol name="0" type="fill" force_rhr="0" alpha="1" clip_to_extent="1">
@@ -425,26 +1294,26 @@
             <layer pass="0" enabled="1" locked="0" class="SimpleFill">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="255,255,255,255"/>
+                <Option name="color" type="QString" value="5,5,5,255"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
                 <Option name="offset_unit" type="QString" value="MM"/>
-                <Option name="outline_color" type="QString" value="35,35,35,255"/>
+                <Option name="outline_color" type="QString" value="35,35,35,0"/>
                 <Option name="outline_style" type="QString" value="no"/>
-                <Option name="outline_width" type="QString" value="0.26"/>
+                <Option name="outline_width" type="QString" value="0"/>
                 <Option name="outline_width_unit" type="QString" value="MM"/>
                 <Option name="style" type="QString" value="solid"/>
               </Option>
               <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="255,255,255,255"/>
+              <prop k="color" v="5,5,5,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_color" v="35,35,35,0"/>
               <prop k="outline_style" v="no"/>
-              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width" v="0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
               <data_defined_properties>
@@ -467,26 +1336,26 @@
             <layer pass="0" enabled="1" locked="0" class="SimpleFill">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="255,191,191,255"/>
+                <Option name="color" type="QString" value="36,36,36,255"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
                 <Option name="offset_unit" type="QString" value="MM"/>
-                <Option name="outline_color" type="QString" value="35,35,35,255"/>
+                <Option name="outline_color" type="QString" value="35,35,35,0"/>
                 <Option name="outline_style" type="QString" value="no"/>
-                <Option name="outline_width" type="QString" value="0.26"/>
+                <Option name="outline_width" type="QString" value="0"/>
                 <Option name="outline_width_unit" type="QString" value="MM"/>
                 <Option name="style" type="QString" value="solid"/>
               </Option>
               <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="255,191,191,255"/>
+              <prop k="color" v="36,36,36,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_color" v="35,35,35,0"/>
               <prop k="outline_style" v="no"/>
-              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width" v="0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
               <data_defined_properties>
@@ -509,26 +1378,26 @@
             <layer pass="0" enabled="1" locked="0" class="SimpleFill">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="255,128,128,255"/>
+                <Option name="color" type="QString" value="66,66,66,255"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
                 <Option name="offset_unit" type="QString" value="MM"/>
-                <Option name="outline_color" type="QString" value="35,35,35,255"/>
+                <Option name="outline_color" type="QString" value="35,35,35,0"/>
                 <Option name="outline_style" type="QString" value="no"/>
-                <Option name="outline_width" type="QString" value="0.26"/>
+                <Option name="outline_width" type="QString" value="0"/>
                 <Option name="outline_width_unit" type="QString" value="MM"/>
                 <Option name="style" type="QString" value="solid"/>
               </Option>
               <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="255,128,128,255"/>
+              <prop k="color" v="66,66,66,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_color" v="35,35,35,0"/>
               <prop k="outline_style" v="no"/>
-              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width" v="0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
               <data_defined_properties>
@@ -551,26 +1420,26 @@
             <layer pass="0" enabled="1" locked="0" class="SimpleFill">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="255,64,64,255"/>
+                <Option name="color" type="QString" value="97,97,97,255"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
                 <Option name="offset_unit" type="QString" value="MM"/>
-                <Option name="outline_color" type="QString" value="35,35,35,255"/>
+                <Option name="outline_color" type="QString" value="35,35,35,0"/>
                 <Option name="outline_style" type="QString" value="no"/>
-                <Option name="outline_width" type="QString" value="0.26"/>
+                <Option name="outline_width" type="QString" value="0"/>
                 <Option name="outline_width_unit" type="QString" value="MM"/>
                 <Option name="style" type="QString" value="solid"/>
               </Option>
               <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="255,64,64,255"/>
+              <prop k="color" v="97,97,97,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_color" v="35,35,35,0"/>
               <prop k="outline_style" v="no"/>
-              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width" v="0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
               <data_defined_properties>
@@ -593,26 +1462,194 @@
             <layer pass="0" enabled="1" locked="0" class="SimpleFill">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="255,0,0,255"/>
+                <Option name="color" type="QString" value="127,127,127,255"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
                 <Option name="offset_unit" type="QString" value="MM"/>
-                <Option name="outline_color" type="QString" value="35,35,35,255"/>
+                <Option name="outline_color" type="QString" value="35,35,35,0"/>
                 <Option name="outline_style" type="QString" value="no"/>
-                <Option name="outline_width" type="QString" value="0.26"/>
+                <Option name="outline_width" type="QString" value="0"/>
                 <Option name="outline_width_unit" type="QString" value="MM"/>
                 <Option name="style" type="QString" value="solid"/>
               </Option>
               <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="255,0,0,255"/>
+              <prop k="color" v="127,127,127,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_color" v="35,35,35,0"/>
               <prop k="outline_style" v="no"/>
-              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol name="5" type="fill" force_rhr="0" alpha="1" clip_to_extent="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer pass="0" enabled="1" locked="0" class="SimpleFill">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="158,158,158,255"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="35,35,35,0"/>
+                <Option name="outline_style" type="QString" value="no"/>
+                <Option name="outline_width" type="QString" value="0"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="solid"/>
+              </Option>
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="158,158,158,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,0"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol name="6" type="fill" force_rhr="0" alpha="1" clip_to_extent="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer pass="0" enabled="1" locked="0" class="SimpleFill">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="189,189,189,255"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="35,35,35,0"/>
+                <Option name="outline_style" type="QString" value="no"/>
+                <Option name="outline_width" type="QString" value="0"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="solid"/>
+              </Option>
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="189,189,189,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,0"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol name="7" type="fill" force_rhr="0" alpha="1" clip_to_extent="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer pass="0" enabled="1" locked="0" class="SimpleFill">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="219,219,219,255"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="35,35,35,0"/>
+                <Option name="outline_style" type="QString" value="no"/>
+                <Option name="outline_width" type="QString" value="0"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="solid"/>
+              </Option>
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="219,219,219,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,0"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol name="8" type="fill" force_rhr="0" alpha="1" clip_to_extent="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer pass="0" enabled="1" locked="0" class="SimpleFill">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="250,250,250,255"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="35,35,35,0"/>
+                <Option name="outline_style" type="QString" value="no"/>
+                <Option name="outline_width" type="QString" value="0"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="solid"/>
+              </Option>
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="250,250,250,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,0"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
               <data_defined_properties>
@@ -637,26 +1674,26 @@
             <layer pass="0" enabled="1" locked="0" class="SimpleFill">
               <Option type="Map">
                 <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-                <Option name="color" type="QString" value="164,113,88,255"/>
+                <Option name="color" type="QString" value="231,113,72,255"/>
                 <Option name="joinstyle" type="QString" value="bevel"/>
                 <Option name="offset" type="QString" value="0,0"/>
                 <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
                 <Option name="offset_unit" type="QString" value="MM"/>
-                <Option name="outline_color" type="QString" value="35,35,35,255"/>
+                <Option name="outline_color" type="QString" value="35,35,35,0"/>
                 <Option name="outline_style" type="QString" value="no"/>
-                <Option name="outline_width" type="QString" value="0.26"/>
+                <Option name="outline_width" type="QString" value="0"/>
                 <Option name="outline_width_unit" type="QString" value="MM"/>
                 <Option name="style" type="QString" value="solid"/>
               </Option>
               <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="164,113,88,255"/>
+              <prop k="color" v="231,113,72,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_color" v="35,35,35,0"/>
               <prop k="outline_style" v="no"/>
-              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width" v="0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
               <data_defined_properties>
@@ -671,13 +1708,13 @@
         </source-symbol>
         <colorramp name="[source]" type="gradient">
           <Option type="Map">
-            <Option name="color1" type="QString" value="255,255,255,255"/>
-            <Option name="color2" type="QString" value="255,0,0,255"/>
+            <Option name="color1" type="QString" value="5,5,5,255"/>
+            <Option name="color2" type="QString" value="250,250,250,255"/>
             <Option name="discrete" type="QString" value="0"/>
             <Option name="rampType" type="QString" value="gradient"/>
           </Option>
-          <prop k="color1" v="255,255,255,255"/>
-          <prop k="color2" v="255,0,0,255"/>
+          <prop k="color1" v="5,5,5,255"/>
+          <prop k="color2" v="250,250,250,255"/>
           <prop k="discrete" v="0"/>
           <prop k="rampType" v="gradient"/>
         </colorramp>
@@ -694,6 +1731,9 @@
       </renderer-v2>
       <customproperties>
         <Option type="Map">
+          <Option name="dualview/previewExpressions" type="List">
+            <Option type="QString" value="&quot;cell&quot;"/>
+          </Option>
           <Option name="embeddedWidgets/count" type="int" value="0"/>
           <Option name="variableNames"/>
           <Option name="variableValues"/>
@@ -705,6 +1745,7 @@
       <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
         <DiagramCategory scaleBasedVisibility="0" lineSizeType="MM" opacity="1" sizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" maxScaleDenominator="1e+08" height="15" direction="0" showAxis="1" diagramOrientation="Up" rotationOffset="270" spacingUnitScale="3x:0,0,0,0,0,0" barWidth="5" backgroundColor="#ffffff" spacing="5" lineSizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight" scaleDependency="Area" spacingUnit="MM" penAlpha="255" penWidth="0" sizeType="MM" minScaleDenominator="0" minimumSize="0" penColor="#000000" enabled="0" width="15">
           <fontProperties description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute color="#000000" field="" label=""/>
           <axisSymbol>
             <symbol name="" type="line" force_rhr="0" alpha="1" clip_to_extent="1">
               <data_defined_properties>
@@ -826,7 +1867,49 @@
             </config>
           </editWidget>
         </field>
+        <field name="mean_fores" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
         <field name="mean_agric" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="mean_gveg" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="mean_veg" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="mean_pastp" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="mean_other" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="mean_mosc" configurationFlags="None">
           <editWidget type="TextEdit">
             <config>
               <Option/>
@@ -838,36 +1921,66 @@
         <alias name="" index="0" field="cell"/>
         <alias name="" index="1" field="e_rivers"/>
         <alias name="" index="2" field="e_urban100"/>
-        <alias name="" index="3" field="mean_agric"/>
+        <alias name="" index="3" field="mean_fores"/>
+        <alias name="" index="4" field="mean_agric"/>
+        <alias name="" index="5" field="mean_gveg"/>
+        <alias name="" index="6" field="mean_veg"/>
+        <alias name="" index="7" field="mean_pastp"/>
+        <alias name="" index="8" field="mean_other"/>
+        <alias name="" index="9" field="mean_mosc"/>
       </aliases>
       <defaults>
         <default expression="" field="cell" applyOnUpdate="0"/>
         <default expression="" field="e_rivers" applyOnUpdate="0"/>
         <default expression="" field="e_urban100" applyOnUpdate="0"/>
+        <default expression="" field="mean_fores" applyOnUpdate="0"/>
         <default expression="" field="mean_agric" applyOnUpdate="0"/>
+        <default expression="" field="mean_gveg" applyOnUpdate="0"/>
+        <default expression="" field="mean_veg" applyOnUpdate="0"/>
+        <default expression="" field="mean_pastp" applyOnUpdate="0"/>
+        <default expression="" field="mean_other" applyOnUpdate="0"/>
+        <default expression="" field="mean_mosc" applyOnUpdate="0"/>
       </defaults>
       <constraints>
         <constraint constraints="0" unique_strength="0" field="cell" notnull_strength="0" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" field="e_rivers" notnull_strength="0" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" field="e_urban100" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="mean_fores" notnull_strength="0" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" field="mean_agric" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="mean_gveg" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="mean_veg" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="mean_pastp" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="mean_other" notnull_strength="0" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="mean_mosc" notnull_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint exp="" desc="" field="cell"/>
         <constraint exp="" desc="" field="e_rivers"/>
         <constraint exp="" desc="" field="e_urban100"/>
+        <constraint exp="" desc="" field="mean_fores"/>
         <constraint exp="" desc="" field="mean_agric"/>
+        <constraint exp="" desc="" field="mean_gveg"/>
+        <constraint exp="" desc="" field="mean_veg"/>
+        <constraint exp="" desc="" field="mean_pastp"/>
+        <constraint exp="" desc="" field="mean_other"/>
+        <constraint exp="" desc="" field="mean_mosc"/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
         <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+      <attributetableconfig sortOrder="1" sortExpression="&quot;mean_agric&quot;" actionWidgetStyle="dropDown">
         <columns>
           <column name="cell" type="field" hidden="0" width="-1"/>
           <column name="e_rivers" type="field" hidden="0" width="-1"/>
           <column name="e_urban100" type="field" hidden="0" width="-1"/>
+          <column name="mean_fores" type="field" hidden="0" width="-1"/>
           <column name="mean_agric" type="field" hidden="0" width="-1"/>
+          <column name="mean_gveg" type="field" hidden="0" width="-1"/>
+          <column name="mean_veg" type="field" hidden="0" width="-1"/>
+          <column name="mean_pastp" type="field" hidden="0" width="-1"/>
+          <column name="mean_other" type="field" hidden="0" width="-1"/>
+          <column name="mean_mosc" type="field" hidden="0" width="-1"/>
           <column type="actions" hidden="1" width="-1"/>
         </columns>
       </attributetableconfig>
@@ -904,18 +2017,36 @@ def my_form_open(diálogo, camada, feição):
         <field name="e_rivers" editable="1"/>
         <field name="e_urban100" editable="1"/>
         <field name="mean_agric" editable="1"/>
+        <field name="mean_fores" editable="1"/>
+        <field name="mean_gveg" editable="1"/>
+        <field name="mean_mosc" editable="1"/>
+        <field name="mean_other" editable="1"/>
+        <field name="mean_pastp" editable="1"/>
+        <field name="mean_veg" editable="1"/>
       </editable>
       <labelOnTop>
         <field name="cell" labelOnTop="0"/>
         <field name="e_rivers" labelOnTop="0"/>
         <field name="e_urban100" labelOnTop="0"/>
         <field name="mean_agric" labelOnTop="0"/>
+        <field name="mean_fores" labelOnTop="0"/>
+        <field name="mean_gveg" labelOnTop="0"/>
+        <field name="mean_mosc" labelOnTop="0"/>
+        <field name="mean_other" labelOnTop="0"/>
+        <field name="mean_pastp" labelOnTop="0"/>
+        <field name="mean_veg" labelOnTop="0"/>
       </labelOnTop>
       <reuseLastValue>
         <field name="cell" reuseLastValue="0"/>
         <field name="e_rivers" reuseLastValue="0"/>
         <field name="e_urban100" reuseLastValue="0"/>
         <field name="mean_agric" reuseLastValue="0"/>
+        <field name="mean_fores" reuseLastValue="0"/>
+        <field name="mean_gveg" reuseLastValue="0"/>
+        <field name="mean_mosc" reuseLastValue="0"/>
+        <field name="mean_other" reuseLastValue="0"/>
+        <field name="mean_pastp" reuseLastValue="0"/>
+        <field name="mean_veg" reuseLastValue="0"/>
       </reuseLastValue>
       <dataDefinedFieldProperties/>
       <widgets/>
@@ -1606,7 +2737,13 @@ def my_form_open(diálogo, camada, feição):
     <layer id="brasil_grade_083_EPSG5880_d8d6ded8_e276_4ffa_b443_86f06e8063b9"/>
     <layer id="rios_pnlt_poly_sirgas2000_f3ea3b8e_ad5a_4d3a_ba4c_b1c31d932afc"/>
     <layer id="centros_urbanos_m_100_pnlt_poly_sirgas2000_51131ec8_be5e_468c_a94f_c6298a9017e0"/>
-    <layer id="brasilAgric2010_8504aae0_38ec_4946_9685_83ee21204e23"/>
+    <layer id="brasil2010veg1_bc873e2f_404a_4883_a0bb_27ebfd73c696"/>
+    <layer id="brasil2010pastp1_1392195d_d85c_4636_b6f4_1233efc73ebd"/>
+    <layer id="brasil2010others1_05c77ee2_a072_4e3f_ae54_91337322b440"/>
+    <layer id="brasil2010mosc1_645375fc_ebc8_403e_9acb_f58a6667b9a6"/>
+    <layer id="brasil2010gveg1_5815d39d_4e3c_4c3b_a5ca_2ab9826395a7"/>
+    <layer id="brasil2010fores1_2dfc4feb_b446_4b2e_b529_25b90b731b0c"/>
+    <layer id="brasil2010agric1_98322f91_85fd_41bf_8ea8_cbbc47d20aad"/>
   </layerorder>
   <properties>
     <Digitizing>
@@ -1709,7 +2846,7 @@ def my_form_open(diálogo, camada, feição):
   <Bookmarks/>
   <ProjectViewSettings UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent xmax="9698056.53435546532273293" ymax="10700137.63571554608643055" ymin="6154128.61560197360813618" xmin="220783.49242378119379282">
+    <DefaultViewExtent xmax="10299942.12202304974198341" ymax="12022141.71119913272559643" ymin="6939220.68109854869544506" xmin="-296655.95767816994339228">
       <spatialrefsys>
         <wkt>PROJCRS["SIRGAS 2000 / Brazil Polyconic",BASEGEOGCRS["SIRGAS 2000",DATUM["Sistema de Referencia Geocentrico para las AmericaS 2000",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4674]],CONVERSION["Brazil Polyconic",METHOD["American Polyconic",ID["EPSG",9818]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-54,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",5000000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",10000000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (small scale)."],AREA["Brazil - onshore and offshore. Includes Rocas, Fernando de Noronha archipelago, Trindade, Ihlas Martim Vaz and Sao Pedro e Sao Paulo."],BBOX[-35.71,-74.01,7.04,-25.28]],ID["EPSG",5880]]</wkt>
         <proj4>+proj=poly +lat_0=0 +lon_0=-54 +x_0=5000000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
